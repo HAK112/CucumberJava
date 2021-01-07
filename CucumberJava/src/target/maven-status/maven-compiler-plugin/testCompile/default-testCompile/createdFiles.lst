@@ -1,0 +1,5 @@
+Locators\Tshirt.class
+Locators\LoginPage.class
+StepDefenations\TestRunner.class
+StepDefenations\Sanity_Login.class
+StepDefenations\Smoke_EndToEnd.class

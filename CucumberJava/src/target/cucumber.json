@@ -1,0 +1,229 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-06T22:21:42.762Z",
+        "line": 15,
+        "name": "Check unsucessful login with invalid credentials",
+        "description": "",
+        "id": "feature-is-to-test-login-functionality;check-unsucessful-login-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18757272700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check Browser is open",
+            "match": {
+              "location": "StepDefenations.Sanity_Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22019917600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on AutomationPractice login page",
+            "match": {
+              "location": "StepDefenations.Sanity_Login.user_is_on_automation_practice_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1300985700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters invalid muhammad.junaid50@gmail.com and 012345678",
+            "match": {
+              "arguments": [
+                {
+                  "val": "muhammad.junaid50@gmail.com",
+                  "offset": 20
+                },
+                {
+                  "val": "012345678",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDefenations.Sanity_Login.user_enters_invalid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4042203100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "StepDefenations.Sanity_Login.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5295563700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "System will show an error message",
+            "match": {
+              "location": "StepDefenations.Sanity_Login.system_will_show_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeScenario"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Feature is to test login functionality",
+    "description": "",
+    "id": "feature-is-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Sanity/Sanity_Login.feature",
+    "tags": [
+      {
+        "name": "@SmokeScenario",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-06T22:22:35.221Z",
+        "line": 4,
+        "name": "Purchase a T_Shirt",
+        "description": "",
+        "id": "feature-is-to-test-t-shirt-purchasing;purchase-a-t-shirt",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39394586300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check Browser is open and user is loggedin",
+            "match": {
+              "location": "StepDefenations.Smoke_EndToEnd.check_browser_is_open_and_user_is_loggedin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9614058900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on T_Shirt tab",
+            "match": {
+              "location": "StepDefenations.Smoke_EndToEnd.user_click_on_t_shirt_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 731659100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User will hover over T_Shirt item and will click Quick View button",
+            "match": {
+              "location": "StepDefenations.Smoke_EndToEnd.user_will_hover_over_t_shirt_item_and_will_click_quick_view_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20959301500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Add_TO_Cart button",
+            "match": {
+              "location": "StepDefenations.Smoke_EndToEnd.user_clicks_on_add_to_cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15417051000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clicks on proceed to checkout button",
+            "match": {
+              "location": "StepDefenations.Smoke_EndToEnd.clicks_on_proceed_to_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5320675400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Agree the term and conditions and click on proceed to checkout",
+            "match": {
+              "location": "StepDefenations.Smoke_EndToEnd.agree_the_term_and_conditions_and_click_on_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5849357800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Selects the payment method",
+            "match": {
+              "location": "StepDefenations.Smoke_EndToEnd.selects_the_payment_method()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20815456400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Clicks I confirm my order and back to my orders",
+            "match": {
+              "location": "StepDefenations.Smoke_EndToEnd.clicks_i_confirm_my_order_and_back_to_my_orders()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Feature is to test T_Shirt purchasing",
+    "description": "",
+    "id": "feature-is-to-test-t-shirt-purchasing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Smoke/Smoke_EndToEnd.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="173.765">
+    <testcase classname="Feature is to test login functionality" name="Check unsucessful login with invalid credentials" time="52.334">
+        <system-out>
+            <![CDATA[Given Check Browser is open.................................................passed
+And User is on AutomationPractice login page................................passed
+When User enters invalid muhammad.junaid50@gmail.com and 012345678..........passed
+And Clicks on login button..................................................passed
+Then System will show an error message......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature is to test T_Shirt purchasing" name="Purchase a T_Shirt" time="118.197">
+        <system-out>
+            <![CDATA[Given Check Browser is open and user is loggedin............................passed
+And User click on T_Shirt tab...............................................passed
+And User will hover over T_Shirt item and will click Quick View button......passed
+When User clicks on Add_TO_Cart button......................................passed
+And Clicks on proceed to checkout button....................................passed
+And Agree the term and conditions and click on proceed to checkout..........passed
+Then Selects the payment method.............................................passed
+And Clicks I confirm my order and back to my orders.........................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
